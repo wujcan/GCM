@@ -1,7 +1,7 @@
 # SGL
 This is our Tensorflow implementation for our paper based on [NeuRec](https://github.com/wubinzzu/NeuRec/):
 
->Jiancan WU, Xiangnan HE, Xiang WANG, Qifan WANG, Weijian CHEN, Jianxun LIAN, Xing XIE. 2021. Graph Convolution Machine for Context-aware Recommender System, [Paper in arXiv](https://arxiv.org/abs/2001.11402).
+>Jiancan Wu, Xiangnan He, Xiang Wang, Qifan Wang, Weijian Chen, Jianxun Lian, Xing Xie. 2021. Graph Convolution Machine for Context-aware Recommender System, [Paper in arXiv](https://arxiv.org/abs/2001.11402).
 
 ## Environment Requirement
 
@@ -32,12 +32,12 @@ Further details, please refer to [NeuRec](https://github.com/wubinzzu/NeuRec/)
 ### Yelp-NC
 
 ```bash
-python GCM.py --dataset Yelp-NC --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls
+python GCM.py --dataset Yelp-NC --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls --num_negatives 4
 ```
 
 ### Yelp-OH
 ```bash
-python GCM.py --dataset Yelp-OH --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls
+python GCM.py --dataset Yelp-OH --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls --num_negatives 4
 ```
 
 ### Amazon-Book
