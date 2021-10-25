@@ -42,5 +42,5 @@ python GCM.py --dataset Yelp-OH --num_gcn_layers 2 --reg 1e-3 --decoder_type FM 
 
 ### Amazon-Book
 ```bash
-python GCM.py --dataset Amazon-Book --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls
+python GCM.py --dataset Amazon-Book --num_gcn_layers 2 --reg 1e-3 --decoder_type FM --adj_norm_type ls --num_negatives 2
 ```
