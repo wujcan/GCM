@@ -25,7 +25,7 @@ Otherwise, the evaluator of python implementation will be called.
 
 **Note that the cpp implementation is much faster than python.**
 
-Further details, please refer to [NeuRec](https://github.com/wubinzzu/NeuRec/)
+Further details, please refer to [NeuRec](https://github.com/wubinzzu/NeuRec/).
 
 **Secondly**,  run [GCM.py](./GCM.py) in IDE or with command line:
 
